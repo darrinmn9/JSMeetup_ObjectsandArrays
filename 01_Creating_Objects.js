@@ -28,5 +28,7 @@ var myCircle = new Circle(5);
 
 var myNewObject = Object.create(point);
 
-// myNewObject.x --> 0
+// {}
+
+// myNewObject.x --> 2
 // myNewObject.hasOwnProperty('x') -->  false

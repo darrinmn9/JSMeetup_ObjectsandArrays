@@ -22,7 +22,7 @@ c.sort(function(a, b) {
 //c --> [1, 3, 9, 11]
 
 c.sort(function(a, b) {
-  return a - b;
+  return b - a;
 });
 
 //c --> [11, 9, 3, 1]
