@@ -11,11 +11,14 @@ var point = {
   }
 };
 
+
 // #2: using the 'new' keyword followed by a function invocation
+
+var x = Circle();
 
 function Circle(radius) {
   this.radius = radius;
-  this.area = radius * radius * Math.pi;
+  this.area = radius * radius * Math.PI;
 }
 
 var myCircle = new Circle(5);

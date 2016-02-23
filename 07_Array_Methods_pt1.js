@@ -28,8 +28,10 @@ b.filter(function(x, i) {
 // [5, 3, 1]
 
 // b --> [5,4,3,2,1]
-
-
+b.filter(function(x) {
+  return x % 2 === 0;
+});
+// [4,2]
 
 /*
 forEach(): loops through the indexes of an array and invokes a function once for each element

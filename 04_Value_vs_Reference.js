@@ -4,11 +4,10 @@ var baz = 42;
 console.log(baz === foo); // --> true
 
 
-var myObject = {};
-var myOtherObject = {};
+var myObject = {a: 2};
+var myOtherObject = {a: 2};
 
 console.log(myObject === myOtherObject); // --> false
-
 
 
 var anotherObject = myObject;

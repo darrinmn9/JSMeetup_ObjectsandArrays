@@ -18,6 +18,7 @@ console.log(p.hasOwnProperty('x')); // --> false
 console.log(o.isPrototypeOf(p)); // --> true
 
 for (var key in q) {
+  //if hasOwnProperty('key') then...
   console.log(key);
 }
 
