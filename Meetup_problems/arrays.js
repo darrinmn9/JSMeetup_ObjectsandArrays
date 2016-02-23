@@ -1,6 +1,4 @@
-exports = (typeof window === 'undefined') ? global : window;
-
-exports.arraysAnswers = {
+window.arraysAnswers = {
 
   indexOf : function(arr, item) {
 
